@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/MarcheloHappyProgrammer/react-portafolio/static/css/main.b6594084.css",
-    "main.js": "/MarcheloHappyProgrammer/react-portafolio/static/js/main.3135845a.js",
-    "static/media/logo_conetwork.png": "/MarcheloHappyProgrammer/react-portafolio/static/media/logo_conetwork.58b14de4c4deaf729e73.png",
-    "static/media/logo_dos_cerritos.png": "/MarcheloHappyProgrammer/react-portafolio/static/media/logo_dos_cerritos.42085a9e6b1941df5ad0.png",
-    "static/media/cibertec_logo.png": "/MarcheloHappyProgrammer/react-portafolio/static/media/cibertec_logo.a5e38cf684b2a5386f53.png",
-    "index.html": "/MarcheloHappyProgrammer/react-portafolio/index.html",
-    "main.b6594084.css.map": "/MarcheloHappyProgrammer/react-portafolio/static/css/main.b6594084.css.map",
-    "main.3135845a.js.map": "/MarcheloHappyProgrammer/react-portafolio/static/js/main.3135845a.js.map"
+    "main.css": "/react-portafolio/static/css/main.b6594084.css",
+    "main.js": "/react-portafolio/static/js/main.e788fc87.js",
+    "static/media/logo_conetwork.png": "/react-portafolio/static/media/logo_conetwork.58b14de4c4deaf729e73.png",
+    "static/media/logo_dos_cerritos.png": "/react-portafolio/static/media/logo_dos_cerritos.42085a9e6b1941df5ad0.png",
+    "static/media/cibertec_logo.png": "/react-portafolio/static/media/cibertec_logo.a5e38cf684b2a5386f53.png",
+    "index.html": "/react-portafolio/index.html",
+    "main.b6594084.css.map": "/react-portafolio/static/css/main.b6594084.css.map",
+    "main.e788fc87.js.map": "/react-portafolio/static/js/main.e788fc87.js.map"
   },
   "entrypoints": [
     "static/css/main.b6594084.css",
-    "static/js/main.3135845a.js"
+    "static/js/main.e788fc87.js"
   ]
 }
