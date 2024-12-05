@@ -2,7 +2,7 @@ function Datos() {
   return (
     <div className="content w-75 p-5">
       <h1 className="display-4 " style={{ fontWeight: "500" }}>
-        Marchelo Cortabrazo Rios
+        Marchelo Cortabrazo Rioss
       </h1>
       <p className="lead">
         Dispuesto al aprendizaje constante, enfocado a lograr los objetivos
