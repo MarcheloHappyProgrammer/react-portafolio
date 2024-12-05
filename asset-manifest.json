@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/react-portafolio/static/css/main.b6594084.css",
-    "main.js": "/react-portafolio/static/js/main.e788fc87.js",
+    "main.css": "/react-portafolio/static/css/main.c3aec34e.css",
+    "main.js": "/react-portafolio/static/js/main.6dce44f0.js",
     "static/media/logo_conetwork.png": "/react-portafolio/static/media/logo_conetwork.58b14de4c4deaf729e73.png",
     "static/media/logo_dos_cerritos.png": "/react-portafolio/static/media/logo_dos_cerritos.42085a9e6b1941df5ad0.png",
     "static/media/cibertec_logo.png": "/react-portafolio/static/media/cibertec_logo.a5e38cf684b2a5386f53.png",
     "index.html": "/react-portafolio/index.html",
-    "main.b6594084.css.map": "/react-portafolio/static/css/main.b6594084.css.map",
-    "main.e788fc87.js.map": "/react-portafolio/static/js/main.e788fc87.js.map"
+    "main.c3aec34e.css.map": "/react-portafolio/static/css/main.c3aec34e.css.map",
+    "main.6dce44f0.js.map": "/react-portafolio/static/js/main.6dce44f0.js.map"
   },
   "entrypoints": [
-    "static/css/main.b6594084.css",
-    "static/js/main.e788fc87.js"
+    "static/css/main.c3aec34e.css",
+    "static/js/main.6dce44f0.js"
   ]
 }
