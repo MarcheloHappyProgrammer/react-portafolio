@@ -1,9 +1,10 @@
+import './styles/experienciaLaboral.css'
 import logoDosCerritos from "./imagenes/logo_dos_cerritos.png";
 import logoConetwork from "./imagenes/logo_conetwork.png";
 
 function ExperienciaLaboral() {
   return (
-    <div className="content w-75 p-5">
+    <div >
       <h1 className="mb-4">Experiencia Laboral</h1>
       <Seccion
         imagen={logoConetwork}

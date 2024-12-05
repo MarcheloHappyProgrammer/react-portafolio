@@ -1,8 +1,10 @@
+import './styles/datos.css'
+
 function Datos() {
   return (
-    <div className="content w-75 p-5">
+    <div >
       <h1 className="display-4 " style={{ fontWeight: "500" }}>
-        Marchelo Cortabrazo Rioss
+        Marchelo Cortabrazo Rios
       </h1>
       <p className="lead">
         Dispuesto al aprendizaje constante, enfocado a lograr los objetivos

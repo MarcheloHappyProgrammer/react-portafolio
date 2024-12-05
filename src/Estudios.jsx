@@ -2,7 +2,7 @@ import imagenCibertec from "./imagenes/cibertec_logo.png";
 
 function Estudios() {
   return (
-    <div className="content w-75 p-5">
+    <div >
       <h1 className="mb-4">Mis estudios</h1>
       <Seccion
         imagen={imagenCibertec}

@@ -6,7 +6,7 @@ import { IoLogoJavascript } from "react-icons/io5";
 
 const skills = [
   { name: 'JavaScript', level: 'Intermedio', icon: <IoLogoJavascript style={{color : '#e2dc0f'}}/>},
-  { name: 'React', level: 'Intermedio', icon: '⚛️' },
+  { name: 'React', level: 'Básico', icon: '⚛️' },
   { name: 'Spring Boot', level: 'Intermedio', icon: '🌱' },
   { name: 'MySQL', level: 'Básico', icon: '🐬' },
   { name: 'Git', level: 'Básico', icon: '🐙' },
@@ -17,7 +17,7 @@ const skills = [
 
 const Skills = () => {
   return (
-    <div className='content w-75 p-5'>
+    <div >
     <h1>Mis Skills</h1>
       <div className="skills-grid">
         {skills.map((skill, index) => (
