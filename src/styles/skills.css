@@ -1,0 +1,20 @@
+
+  
+  .skills-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+  }
+  
+  .skill-card {
+    background-color: #f4f4f4;
+    padding: 0.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .skill-icon {
+    font-size: 2rem;
+  }
+  
