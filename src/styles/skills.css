@@ -3,6 +3,22 @@
   grid-template-columns: 1fr 1fr 1fr; 
   gap: 2rem;
 }
+.section-title {
+  color: #333;
+  position: relative; 
+  padding-bottom: 0.5rem; 
+}
+
+.section-title::after {
+  content: ''; 
+  position: absolute;
+  bottom: 0; 
+  left: 0;
+  width: 95%; 
+  height: 3px; 
+  background-color: #418dcb; 
+}
+
 
 @media (max-width: 768px) {
   .skills-grid {
@@ -13,21 +29,89 @@
 @media (max-width: 576px) {
   .skills-grid {
     grid-template-columns: 1fr;
-    gap: 0;
+    gap: 0.2rem;
   }
-  .skill-card{
-    scale: 0.8;
+  .skill-card {
+    transform: scale(0.85);
   }
 }
 
 .skill-card {
-  background-color: #f4f4f4;
-  padding: 0.5rem;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background: #efefef6c; 
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
   text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .skill-icon {
-  font-size: 2rem;
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.skill-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.skill-level {
+  font-size: 1rem;
+  color: #555;
+}
+
+.soft-skills-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 1.5rem;
+  margin: 0.8rem;
+}
+
+@media (max-width: 768px) {
+  .soft-skills-grid {
+    grid-template-columns: 1fr; 
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .soft-skills-grid {
+    grid-template-columns: 1fr; 
+    gap: 0.8rem;
+  }
+}
+
+.soft-skill-card {
+  background-color: #f4f4f4;
+  border-left: 4px solid #42a5f5; 
+  border-radius: 8px;
+  padding: 1rem;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.soft-skill-card:hover {
+  background-color: #e3f2fd;
+  transform: translateY(-5px);
+}
+
+.soft-skill-name {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.soft-skill-description {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.section-title {
+  margin-bottom: 1.5rem;
+  color: #333;
 }

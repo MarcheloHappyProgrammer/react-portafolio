@@ -1,11 +1,12 @@
 import './styles/experienciaLaboral.css'
 import logoDosCerritos from "./imagenes/logo_dos_cerritos.png";
 import logoConetwork from "./imagenes/logo_conetwork.png";
+import logoEducapases from "./imagenes/logo_educapases.png"
 
 function ExperienciaLaboral() {
   return (
     <div >
-      <h1 className="mb-4">Experiencia Laboral</h1>
+      <h1 className="mb-4 section-title">Experiencia Laboral</h1>
       <Seccion
         imagen={logoConetwork}
         titulo={"Conetwork"}
@@ -24,7 +25,15 @@ function ExperienciaLaboral() {
         Ubicacion={"Barranco, Lima, Perú"}
         paginaWeb={"https://tienda.2cerritos.com.pe/"}
       />
-      
+      <Seccion
+        imagen={logoEducapases}
+        titulo={"Educapases"}
+        cargo={"Desarrollador web / Administrador de la plataforma educativa"}
+        fechaInicio={"Junio 2021"}
+        fechaFin={"Noviembre 2021"}
+        Ubicacion={"Barranco, Lima, Perú"}
+        paginaWeb={"https://web.facebook.com/Educapases/?_rdc=1&_rdr#"}
+      />
     </div>
   );
 }
@@ -45,11 +54,11 @@ function Seccion(props) {
           <div className="card-body">
             <h5 className="card-title">{props.titulo}</h5>
             <p className="card-text">
-              <strong>Cargo:</strong> {props.cargo}
+              <span>Cargo:</span> {props.cargo}
               <br />
-              <strong>Duración:</strong> {props.fechaInicio} - {props.fechaFin}
+              <span>Duración:</span> {props.fechaInicio} - {props.fechaFin}
               <br />
-              <strong>Ubicación:</strong> {props.Ubicacion}
+              <span>Ubicación:</span> {props.Ubicacion}
             </p>
             <p className="card-text">
               <small className="text-body-secondary">

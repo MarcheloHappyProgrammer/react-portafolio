@@ -3,7 +3,7 @@ import './styles/datos.css'
 function Datos() {
   return (
     <div >
-      <h1 className="display-4 " style={{ fontWeight: "500" }}>
+      <h1  style={{ fontWeight: "500" }} className='section-title'>
         Marchelo Cortabrazo Rios
       </h1>
       <p className="lead">
