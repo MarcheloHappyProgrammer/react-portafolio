@@ -1,3 +1,36 @@
 .imagen-proyecto {
     width: 200px;
 }
+/* Asegúrate de que la tabla sea responsiva */
+.table-responsive {
+    overflow-x: auto;
+  }
+  @media (max-width: 768px) {
+    .table thead {
+      display: none;
+    }
+    .table {
+        border-top: 20px solid rgb(32, 32, 32);
+    }
+  
+    .table, .table tbody, .table tr, .table td {
+      display: block;
+      width: 100%;
+    }
+  
+    .table td {
+      text-align: center;
+      position: relative;
+    }
+  
+    .table td::before {
+      content: attr(data-label);
+      position: absolute;
+      left: 10px;
+      font-weight: bold;
+    }
+  
+    .imagen-proyecto {
+      max-width: 250px;
+    }
+  }
