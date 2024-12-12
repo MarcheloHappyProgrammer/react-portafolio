@@ -4,7 +4,7 @@ import certificadoPrimerAnio from "./pdfs/certificado_modular_1_carrera.pdf";
 function Estudios() {
   return (
     <div >
-      <h1 className="mb-4 section-title">Mis estudios</h1>
+      <h1 className="mb-4 section-title">Mis Estudios</h1>
       <Seccion
         imagen={imagenCibertec}
         nombreCarrera={"Computación e informática"}
