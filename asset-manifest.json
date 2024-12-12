@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portafolio/static/css/main.e6a08c1a.css",
-    "main.js": "/react-portafolio/static/js/main.d1fadf28.js",
+    "main.css": "/react-portafolio/static/css/main.01b2bb7f.css",
+    "main.js": "/react-portafolio/static/js/main.316ac5b0.js",
     "static/media/T3DAMOSCURSO.png": "/react-portafolio/static/media/T3DAMOSCURSO.ed5d3480cbadb7378bb1.png",
     "static/media/certificado_modular_1_carrera.pdf": "/react-portafolio/static/media/certificado_modular_1_carrera.cf88e982341718725f3a.pdf",
     "static/media/logo_educapases.png": "/react-portafolio/static/media/logo_educapases.7ebae899b6853d494966.png",
@@ -9,11 +9,11 @@
     "static/media/logo_dos_cerritos.png": "/react-portafolio/static/media/logo_dos_cerritos.42085a9e6b1941df5ad0.png",
     "static/media/cibertec_logo.png": "/react-portafolio/static/media/cibertec_logo.a5e38cf684b2a5386f53.png",
     "index.html": "/react-portafolio/index.html",
-    "main.e6a08c1a.css.map": "/react-portafolio/static/css/main.e6a08c1a.css.map",
-    "main.d1fadf28.js.map": "/react-portafolio/static/js/main.d1fadf28.js.map"
+    "main.01b2bb7f.css.map": "/react-portafolio/static/css/main.01b2bb7f.css.map",
+    "main.316ac5b0.js.map": "/react-portafolio/static/js/main.316ac5b0.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6a08c1a.css",
-    "static/js/main.d1fadf28.js"
+    "static/css/main.01b2bb7f.css",
+    "static/js/main.316ac5b0.js"
   ]
 }
