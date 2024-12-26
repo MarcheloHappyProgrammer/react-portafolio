@@ -19,7 +19,7 @@ function Proyectos() {
               <td><img src={t3damoscurso_img} className='imagen-proyecto' /></td>
               <td><strong>T3DAMOSCURSO</strong><br />Maquetación de página web educativa hecha con React.</td>
               <td>
-                <a href="https://marchelohappyprogrammer.github.io/TE3DAMOSCURSO/" className="btn btn-primary btn-sm" target="_blank" rel="noopener noreferrer">Visitar</a>
+                <a href="https://te-damoscurso.vercel.app/TE3DAMOSCURSO/" className="btn btn-primary btn-sm" target="_blank" rel="noopener noreferrer">Visitar</a>
               </td>
             </tr>
           </tbody>
