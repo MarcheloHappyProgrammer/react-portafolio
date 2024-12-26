@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portafolio/static/css/main.01b2bb7f.css",
-    "main.js": "/react-portafolio/static/js/main.316ac5b0.js",
+    "main.js": "/react-portafolio/static/js/main.6e983111.js",
     "static/media/T3DAMOSCURSO.png": "/react-portafolio/static/media/T3DAMOSCURSO.ed5d3480cbadb7378bb1.png",
     "static/media/certificado_modular_1_carrera.pdf": "/react-portafolio/static/media/certificado_modular_1_carrera.cf88e982341718725f3a.pdf",
     "static/media/logo_educapases.png": "/react-portafolio/static/media/logo_educapases.7ebae899b6853d494966.png",
@@ -10,10 +10,10 @@
     "static/media/cibertec_logo.png": "/react-portafolio/static/media/cibertec_logo.a5e38cf684b2a5386f53.png",
     "index.html": "/react-portafolio/index.html",
     "main.01b2bb7f.css.map": "/react-portafolio/static/css/main.01b2bb7f.css.map",
-    "main.316ac5b0.js.map": "/react-portafolio/static/js/main.316ac5b0.js.map"
+    "main.6e983111.js.map": "/react-portafolio/static/js/main.6e983111.js.map"
   },
   "entrypoints": [
     "static/css/main.01b2bb7f.css",
-    "static/js/main.316ac5b0.js"
+    "static/js/main.6e983111.js"
   ]
 }
